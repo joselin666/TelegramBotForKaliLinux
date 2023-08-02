@@ -12,5 +12,7 @@ sudo chmod -R 700 /opt/telegram
 update BOT and CHAT file with your info
 
 #Add this line in the root crontab:
+
 sudo crontab -e
+
 @reboot /opt/telegram/interface.sh > /var/log/interface.log 2>&1 &
